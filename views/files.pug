@@ -1,0 +1,12 @@
+doctype html
+html
+  head
+    title Files: #{path}
+  body
+    h1 Files: "#{path}"
+    ol
+      each stats, file in files
+        if stats.isFile() && stats.size > 0
+          li
+            a(download=file,href="/"+path+"/"+file) #{file}
+            |  -- #{stats.size} bytes

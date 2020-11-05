@@ -1,0 +1,19 @@
+{
+  "name": "files",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.coffee",
+  "scripts": {
+    "start": "coffee index.coffee"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "functors": "^2.4.4",
+    "pug": "^3.0.0"
+  },
+  "devDependencies": {
+    "coffeescript": "^2.5.1"
+  }
+}
